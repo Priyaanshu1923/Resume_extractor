@@ -151,7 +151,7 @@ def upload_resume(request):
     else:
         form = ResumeUploadForm()
 
-    return render(request, 'C:/Users/Priyanshu/Desktop/Assg/resume_extractor/resumeapp/templates/upload_resume.html', {'form': form})
+    return render(request, 'upload_resume.html', {'form': form})
 
 def home(request):
-    return render(request, 'C:/Users/Priyanshu/Desktop/Assg/resume_extractor/resumeapp/templates/home.html')
+    return render(request, 'home.html')
