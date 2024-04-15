@@ -5,11 +5,11 @@
     <title>Upload Resumes</title>
 </head>
 <body>
-    <h2>Upload Resumes</h2>
+    <h2>Upload Resumes(ZIP File contains bundle of resumes)</h2>
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
         <input type="file" name="file">
-        <button type="submit">Upload(ZIP File of resumes)</button>
+        <button type="submit">Upload</button>
       </form>
 </body>
 </html>
